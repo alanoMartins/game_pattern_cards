@@ -1,0 +1,61 @@
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+	border: 5px solid;
+	margin: 5px;
+	
+}
+
+div.card.type0 {
+	border-color: red;
+}
+
+div.card.type1 {
+	border-color: blue;
+}
+
+.number {
+	font-size: 25px;
+}
+
+.title {
+	font-size: 25px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.example {
+	font-size: 12px;
+}
+
+.instantiated {
+	display: inline;
+	margin-right: 3px;
+}
+
+.instantiateds .type0, .modulates .type0 {
+	background-color: red;
+	color: white;
+} 
+
+.instantiateds .type1, .modulates .type1{
+	background-color: blue;
+	color: white;
+} 
+
+div.number.type0 {
+	background-color: red;
+	color: white;
+} 
+
+div.number.type1 {
+	background-color: blue;
+	color: white;
+} 
